@@ -1,0 +1,92 @@
+#users {
+	position: relative;
+	float: right;
+	display: block;
+	width: 55%;
+	height: 500px;
+	overflow-y: scroll;
+	background: lightgrey;
+	margin: 0 auto;
+}
+#users {
+	font-size: 100%;
+}
+#users1 {
+	position: relative;
+	float: right;
+	display: block;
+	width: 55%;
+	height: 500px;
+	overflow-y: scroll;
+	background: lightgrey;
+	margin: 100px auto;	
+	font-size: 100%;
+}
+
+ul{
+	position: relative;
+	float: right;
+	margin: 0 auto;
+}
+ul li {
+	list-style-type: none;
+	width: 300px;
+	text-align: left;
+	font-size: 110%;
+}
+/*#select div div:last-child {
+	position: relative;
+	display: flex;
+	align-items: center;
+	background: green !important;
+}*/
+.user {
+	float: left; 
+	display: inline-block; 
+	margin: 30px; 
+	width: 80px; 
+	height: 100px; 
+	text-align: center;
+}
+.user:hover {
+	cursor: pointer;
+}
+.userImg {
+	height: 80px; 
+	width: 80px;
+	background-size: 100%;
+}
+.IMG {
+	background-size: 100%;
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+}
+.hide {
+	top: 5%;
+	left: 0%;
+	position: fixed; 
+	display: none; 
+	width: 60%; 
+	height: 50%; 
+	/*z-index: -2;*/
+	background:lightblue;
+}
+.show:hover {
+	cursor: crosshair;
+}
+.show {
+	top: 5%;
+	left: 0%;
+	position: fixed; 
+	display: block; 
+	width: 40%; 
+	height: 30%; 
+	/*z-index: 5;*/
+	background:lightblue;	
+}
+#sorting {
+	display: block;
+	position: absolute;
+	top: 50%;
+}
